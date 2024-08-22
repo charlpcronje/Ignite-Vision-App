@@ -1,0 +1,12 @@
+{    
+    "endpoint": "auth/login",
+    "field_mapping": {
+        "username": "email",
+        "password": "password"
+    },
+    "method": "post",
+    "headers": {
+        "Content-Type": "application/json",
+        "bearer": "Bearer api_key"
+    }
+}

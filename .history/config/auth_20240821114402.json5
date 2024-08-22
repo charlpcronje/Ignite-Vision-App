@@ -1,0 +1,13 @@
+{    
+    "endpoint": "auth/login",
+    "method": "post",
+    "bodt": {
+        "username": "email",
+        "password": "password"
+    },
+    
+    "headers": {
+        "Content-Type": "application/json",
+        "bearer": "Bearer api_key"
+    }
+}
